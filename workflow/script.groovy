@@ -1,0 +1,1 @@
+log.error issue.getSummary()
