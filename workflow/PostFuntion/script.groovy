@@ -11,3 +11,4 @@ def numeroDocumento=issue.getCustomFieldValue(cfNumeroDocumento)
 log.error "id cf: "+customfieldPuesto
 log.error "valor Numero: "+ numeroDocumento
 
+issue.setCustomFieldValue(cfNumeroDocumento,numeroDocumento)
